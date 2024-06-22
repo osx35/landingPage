@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>osCAR DETAIL</title>
-    <link rel="stylesheet" href="../assets/css/#">
+    <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 <body>
 <header>
     <div class="container">
         <div class="logo">
-            <img src="../assets/css/#" alt="Logo">
+            <img src="../assets/images/logo1.png" alt="Logo">
         </div>
         <nav>
             <ul>
