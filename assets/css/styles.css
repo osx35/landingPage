@@ -23,11 +23,15 @@ header .container {
     display: flex;
     max-width: 100%;
     margin: 0 auto;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 10rem;
+    gap: 10em;
 }
 
+header .container{
+    margin-left: 20px;
+    margin-right: 20px;
+}
 header .logo img {
     max-width: 60px;
     height: auto;
@@ -47,4 +51,91 @@ header nav ul li a {
 
 header nav ul li a:hover {
     color: #ffcc00;
+}
+
+#home{
+    background-image: url('https://szuflandia.pjwstk.edu.pl/~s30158/resources/2022-Toyota-Corolla-Tech-3-banner.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 75px;
+    max-height: 330px;
+}
+
+#home .container{
+    left: 100%;
+}
+
+#home .button{
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.4s ease;
+}
+
+#home .button:hover{
+    background-color: #f2b200;
+}
+
+#about{
+    display: flex;
+    background-color: white;
+    padding: 80px 0;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+#about .container{
+max-width: 60%;
+}
+
+#about h2{
+    text-align: center;
+    font-size: 24pt;
+    margin-bottom: 30px;
+}
+
+#about p{
+    text-align: justify;
+    font-size: 14pt;
+    line-height: 2;
+}
+
+#features{
+    display: flex;
+    background-color: #f5f5f5;
+    padding: 80px 0;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+#features .container{
+    max-width: 60%;
+}
+
+#features h2{
+    text-align: center;
+    font-size: 24pt;
+    margin-bottom: 30px;
+}
+
+#features ul {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#features ul li {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+#features ul li a {
+    font-weight: bold;
 }
