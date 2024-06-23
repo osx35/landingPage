@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>osCAR DETAIL</title>
+    <title><?php echo __('osCAR DETAILING | Landing page'); ?></title>
     <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
 <body>
@@ -13,12 +13,14 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#features">FEATURES</a></li>
-                <li><a href="#testimonials">TESTIMONIALS</a></li>
-                <li><a href="#gallery">GALLERY</a></li>
-                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#home"><?php echo __('HOME'); ?></a></li>
+                <li><a href="#about"><?php echo __('ABOUT'); ?></a></li>
+                <li><a href="#features"><?php echo __('FEATURES'); ?></a></li>
+                <li><a href="#testimonials"><?php echo __('TESTIMONIALS'); ?></a></li>
+                <li><a href="#gallery"><?php echo __('GALLERY'); ?></a></li>
+                <li><a href="#contact"><?php echo __('CONTACT'); ?></a></li>
+                <li><a href="?lang=en">English</a></li>
+                <li><a href="?lang=pl">Polski</a></li>
             </ul>
         </nav>
     </div>

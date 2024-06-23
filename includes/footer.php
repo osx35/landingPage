@@ -1,3 +1,3 @@
 <footer>
-<h2>Footer</h2>
+    <h2><?php echo __('Footer'); ?></h2>
 </footer>
