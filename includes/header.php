@@ -9,7 +9,7 @@
 <header>
     <div class="container">
         <div class="logo">
-            <img src="../assets/images/logo1.png" alt="Logo">
+            <a href="index.php"><img src="../assets/images/logo1.png" alt="Logo"></a>
         </div>
         <nav>
             <ul>

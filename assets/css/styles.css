@@ -66,7 +66,7 @@ header nav ul li a:hover {
     left: 100%;
 }
 
-#home .button{
+.button{
     margin-top: 10px;
     display: inline-block;
     padding: 10px 20px;
@@ -92,7 +92,7 @@ header nav ul li a:hover {
 }
 
 #about .container{
-max-width: 60%;
+    max-width: 60%;
 }
 
 #about h2{
@@ -104,7 +104,7 @@ max-width: 60%;
 #about p{
     text-align: justify;
     font-size: 14pt;
-    line-height: 2;
+    line-height: 1.5;
 }
 
 #features{
@@ -115,6 +115,7 @@ max-width: 60%;
     justify-content: center;
     align-content: center;
 }
+
 #features .container{
     max-width: 60%;
 }
@@ -138,4 +139,107 @@ max-width: 60%;
 
 #features ul li a {
     font-weight: bold;
+}
+
+#testimonials {
+    background-color: #333;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+#testimonials h2 {
+    text-align: center;
+    font-size: 24pt;
+    margin-bottom: 30px;
+}
+
+.testimonials {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3em;
+}
+
+.testimonial {
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 20px;
+}
+
+.testimonial img {
+    width: 40px;
+    height: auto;
+    flex-shrink: 0;
+    border: 1px solid #333;
+    border-radius: 50%;
+}
+
+.testimonial-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.testimonial p{
+    margin: 0;
+}
+
+.testimonial a{
+    max-height: 40px;
+}
+
+.testimonial .name {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#gallery{
+    background-color: #f5f5f5;
+    padding: 80px 0;
+    align-items: center;
+    align-content: center;
+}
+
+#gallery h2 {
+    text-align: center;
+    font-size: 24pt;
+    margin-bottom: 30px;
+}
+
+#gallery .container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.gallery:hover {
+    border: 1px solid #777;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.responsive {
+    width: 12%;
 }
