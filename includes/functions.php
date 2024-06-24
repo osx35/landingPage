@@ -1,7 +1,5 @@
 <?php
-function sanitize_input($input) {
-    return htmlspecialchars(trim($input));
-}
+
 session_start();
 
 function setLanguage($lang) {
@@ -19,17 +17,21 @@ if (isset($_GET['lang'])) {
         setLanguage($lang);
     }
 }
-function __($key)
-{
+
+function __($key) {
     global $translations;
     return isset($translations[$key]) ? $translations[$key] : $key;
 }
 
 $language = isset($_SESSION['lang']) ? $_SESSION['lang'] : 'en';
 
-if ($language === 'pl') {
-    $translations = include 'languages/pl.php';
-} else {
-    $translations = include 'languages/en.php';
+if ($language === 'pl' && file_exists(__DIR__ . '/../languages/pl.php')) {
+    $translations = include __DIR__ . '/../languages/pl.php';
+} elseif (file_exists(__DIR__ . '/../languages/en.php')) {
+    $translations = include __DIR__ . '/../languages/en.php';
+}
+function getYear()
+{
+    return date('Y');
 }
 ?>

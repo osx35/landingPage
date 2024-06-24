@@ -1,3 +1,7 @@
+<?php
+$errors = isset($_SESSION['errors']) ? $_SESSION['errors'] : [];
+unset($_SESSION['errors']);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,7 +17,7 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#home"><?php echo __('HOME'); ?></a></li>
+                <li><a href="index.php"><?php echo __('HOME'); ?></a></li>
                 <li><a href="#about"><?php echo __('ABOUT'); ?></a></li>
                 <li><a href="#features"><?php echo __('FEATURES'); ?></a></li>
                 <li><a href="#testimonials"><?php echo __('TESTIMONIALS'); ?></a></li>

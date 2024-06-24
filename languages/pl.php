@@ -44,6 +44,11 @@ return [
     'Your Message' => 'Twoja wiadomość',
     'Your Phone (optional)' => 'Twój telefon (opcjonalnie)',
     'Submit' => 'Wyślij',
-    'Footer' => 'Stopka',
+    'Phone' => 'Telefon',
+    "Follow Us"=>"Znajdź nas",
+    "Site Map"=>"Mapa witryny",
+    "Legal"=>"Prawne",
+    "Privacy Policy"=>"Polityka prywatności",
+    "Terms of Use"=>"Warunki użytkowania",
 ];
 ?>

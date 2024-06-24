@@ -44,6 +44,11 @@ return [
     'Your Message' => 'Your Message',
     'Your Phone (optional)' => 'Your Phone (optional)',
     'Submit' => 'Submit',
-    'Footer' => 'Footer',
+    'Phone' => 'Phone',
+    "Follow Us"=>"Follow Us",
+    "Site Map"=>"Site Map",
+    "Legal"=>"Legal",
+    "Privacy Policy"=>"Privacy Policy",
+    "Terms of Use"=>"Terms of Use",
 ];
 ?>
